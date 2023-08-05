@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.items-listed{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+.num-metal{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: none;
+}
+.number, .metal{
+    font-weight: bold;
+}
+.one-item{
+    border-style: solid;
+    border-color: black;
+    border-block-width: 20px;
+}
