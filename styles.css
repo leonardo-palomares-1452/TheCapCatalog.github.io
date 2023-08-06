@@ -1,9 +1,18 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 body{
     background-color: black;
     color: white;
 }
 h1{
     text-align: center;
+    margin: 30px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
 }
 .items-listed{
     display: flex;
@@ -25,3 +34,27 @@ h1{
     border-color: black;
     border-block-width: 20px;
 }
+img
+{
+    box-shadow: 0px 0px 10px #fff;
+}
+.links{
+    color: white;
+    border: solid 3px white;
+    padding: 10px;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
